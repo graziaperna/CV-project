@@ -1,1 +1,3 @@
 # CV-project
+
+This project aims to estimate volume, calories and weight from food images. We used the pre-trained model Faster RCNN from Tensorflow-hub to detect the type of food and the OneYuan coin in the image. The coin plays an important role because it helps us to calculate the volume of the food. During the process, GrabCut was used for cutting the box containing the food. Finally, we did the estimations. For doing a final evaluation, we compared our results with  the scores contained on a file called “density.xls”. The experiment results showed that our estimation method is pretty effective, but mostly for some category of food.
